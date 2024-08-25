@@ -134,7 +134,7 @@ const ChatPage = () => {
 			>
 				<Flex flex={30} gap={2} flexDirection={"column"} maxW={{ sm: "250px", md: "full" }} mx={"auto"}>
 					<Text fontWeight={700} color={useColorModeValue("gray.600", "gray.400")}>
-						Your Conversations
+						Your Messages
 					</Text>
 					<form onSubmit={handleConversationSearch}>
 						<Flex alignItems={"center"} gap={2}>
